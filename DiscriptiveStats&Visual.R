@@ -1,5 +1,5 @@
 getwd()
-setwd("C:/Sagar Drive/ALY6010/ALY6010_R/")
+setwd("C:/Sagar Drive/")
 # Installed and Loaded all the libraries
 
 #install.packages("dplyr")
@@ -33,7 +33,7 @@ library(png)
 
 #Import the dataset and store it into Baseline_survey
 Baseline_survey <- as.data.frame(read.csv(
-  file = "C:/Sagar Drive/ALY6010/ALY6010_R/Week 1/New_baseline_survey.csv"))
+  file = "New_baseline_survey.csv"))
 
 kbl(Baseline_survey, caption = "Baseline Survey Dataset") %>%
   kable_material_dark(c("striped", "hover"))%>%
